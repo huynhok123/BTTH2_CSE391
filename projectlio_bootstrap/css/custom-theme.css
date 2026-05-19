@@ -1,0 +1,68 @@
+/* Custom Stylesheet */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Navbar styling */
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* Title styling */
+.about-title {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-family: 'Oswald', 'Arial Narrow', sans-serif;
+    margin-bottom: 0;
+}
+
+.title-underline {
+    height: 6px;
+    background-color: #a31f1f; /* Màu đỏ đậm */
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto 40px auto;
+}
+
+/* Image styling */
+.profile-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Text styling */
+.bio-text p {
+    line-height: 1.6;
+    font-size: 1.05rem;
+    margin-bottom: 1.5rem;
+}
+
+.bio-text a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.research-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: 'Oswald', 'Arial Narrow', sans-serif;
+    margin-bottom: 25px;
+}
+
+.research-list {
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.research-list ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
